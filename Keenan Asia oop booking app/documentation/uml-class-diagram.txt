@@ -1,0 +1,26 @@
+
+    UML Class Diagram
+
+ _____________________________________________
+| 											  |
+| 		    		Hotel		 			  |
+| ------------------------------------------  |
+| 										  	  |
+| - id: integer								  |
+| - name: string							  |
+| - costPerNight: integer					  |
+| - availRooms: integer						  |
+| - fullyBooked: boolean					  |
+| 										   	  |
+| ------------------------------------------- |
+| 											  |
+| + construct(idInput, nameInput, cpnInput,   |
+|             roomsInput, fullyBookedInput)   |
+| 											  |
+| + getters()								  |
+| + setters()								  |
+| 											  |
+| + calculateCostOfStay(int numDays): integer |
+| + calculateNumDays(start, end): integer     |
+| 											  |
+|_____________________________________________|

@@ -1,0 +1,79 @@
+========================================== UML =============================================
+
+Unified Modeling Language, better known as UML. 
+UML is a modeling toolkit that guides the creation and notation of many types of diagrams, 
+including behavior diagrams, interaction diagrams, and structure diagrams
+
+========================================== Backend =============================================
+
+UML Class Diagram:
+	- Help developers build model classes in software solution
+	- Helps stake-holder's understand how data is modeled in the system 
+	- Makes use of positive and minus symbols to indicate what access modifier to use,
+	  what data type each instance variable should be, and what methods are in a class
+	- sample: modifier - variable name : data type
+
+Class Diagram example:
+
+ _____________________________________________
+| 											  |
+| 		    		Hotel		 			  |
+| ------------------------------------------  |
+| 										  	  |
+| - id: integer								  |
+| - name: string							  |
+| - costPerNight: integer					  |
+| - availRooms: integer						  |
+| - fullyBooked: boolean					  |
+| 										   	  |
+| ------------------------------------------- |
+| 											  |
+| + construct()								  |
+| + getters()								  |
+| + setters()								  |
+| 											  |
+| + calculateCostOfStay(int numDays): integer |
+| 											  |
+|_____________________________________________|
+
+
+System Sequence Diagram:
+	- A sequence diagram is a type of interaction diagram because it describes how—and 
+	  in what order—a group of objects works together. These diagrams are used by 
+	  software developers and business professionals to understand requirements 
+	  for a new system or to document an existing process. Sequence diagrams are 
+	  sometimes known as event diagrams or event scenarios
+
+Use Case Diagram
+	- A use case diagram is a graphical depiction of a user's possible interactions 
+	with a system. A use case diagram shows various use cases and different types of 
+	users the system has and will often be accompanied by other types of diagrams as well. 
+	The use cases are represented by either circles or ellipses. The actors are often shown as stick figures
+
+
+========================================== Frontend =============================================
+
+Wireframes
+	- Bare bones skeleton of your frontend / website
+	- Helps to map to frontend developer what Mark-up (HTML) to use / elements to use
+	- Flow-diagrams
+	eg:
+	index.html
+		-> about.html
+			-> look-book.html
+			-> blog.html
+		-> contact.html
+	`		-> map.html
+		-> create-booking.html
+			-> display-hotels.html
+				-> all-bookings.html
+
+Mock-up
+	- Same as wireframes but serve as more accurate visual representaion of styling, 
+	  themes, etc.
+	- Figma, Photoshop, Illustrator
+
+Demo
+	- Create Frontend app with dummy javascript data
+	- Website builder (WIX, Wordpress) - interactive
+	- Use mock data
